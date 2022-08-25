@@ -1,6 +1,4 @@
 # Digikey.ca:
-No                                                                                                                                              Qté                                 
-
 ## Alimentation découpage:
 | No                | Description                       | Prix unitaire | Qté   |
 |-------------------|-----------------------------------|---------------|-------|
@@ -15,32 +13,38 @@ No                                                                              
 | PRL1632.009FCT-ND | RES 0.009 OHM 1W 1206 WIDE        | $0.88         | 25    |
 
 ## Régulateurs:
-LM1117MP-5.0/NOPBCT-ND  IC REG LINEAR 5V 800MA SOT223      $1.552                          25                       
-LM1117IMPX-3.3/NOPBCT-ND        IC REG LIN 3.3V 800MA SOT223-4               $1.40920                                25                              
-TS3480CX33RFGCT-ND                      Linear Voltage  3.3V 100mA SOT-23             $0.8448                                 25                                  
-MC33269DR2-5.06                             LINEAR REGULATOR 5v 800Ma SOIC-8        ???                                         25
+| No                        | Description                       | Prix unitaire | Qté   |
+|---------------------------|-----------------------------------|---------------|-------|
+| LM1117MP-5.0/NOPBCT-ND    | IC REG LINEAR 5V 800MA SOT223     | $1.552        | 25    |
+| LM1117IMPX-3.3/NOPBCT-ND  | IC REG LIN 3.3V 800MA SOT223-4    | $1.40920      | 25    |
+| TS3480CX33RFGCT-ND        | Linear Voltage  3.3V 100mA SOT-23 | $0.8448       | 25    |
+| MC33269DR2-5.06           | LINEAR REGULATOR 5v 800Ma SOIC-8  | ???           | 25    |
 
 
 ## USB à série:
-768-1007-1-ND                                 IC USB FS SERIAL UART 28-SSOP                     $6.103                                   25                              
-151-1206-1-ND                                 CONN RCPT USB2.0 MINI B SMD R/A           $0.6872                                  25                                  
-
-609-4618-1-ND                                CONN RCPT USB2.0 MICRO B SMD R/A        $0.4652                                   25                                   
-
+| No                        | Description                       | Prix unitaire | Qté   |
+|---------------------------|-----------------------------------|---------------|-------|
+| 768-1007-1-ND             | IC USB FS SERIAL UART 28-SSOP     | $6.103        | 25    |
+| 151-1206-1-ND             | CONN RCPT USB2.0 MINI B SMD R/A   | $0.6872       | 25    |
+| 609-4618-1-ND             | CONN RCPT USB2.0 MICRO B SMD R/A  | $0.4652       | 25    |
 
 
 ## Section processeur:
-P8X32A-Q44-ND                               IC MCU 32BIT 32KB ROM 44LQFP               $10.8316                                 25                                    
-644-1202-1-ND                                  CRYSTAL 5.0000MHZ 8PF SMD                    $0.705                                     25                              
-24LC512T-I/SNCT-ND                       IC EEPROM 512KBIT I2C 8SOIC                       $2.44                                      25                                 
+| No                        | Description                       | Prix unitaire | Qté   |
+|---------------------------|-----------------------------------|---------------|-------|
+| P8X32A-Q44-ND             | IC MCU 32BIT 32KB ROM 44LQFP      | $10.8316      | 25    |
+| 644-1202-1-ND             | CRYSTAL 5.0000MHZ 8PF SMD         | $0.705        | 25    |
+| 24LC512T-I/SNCT-ND        | IC EEPROM 512KBIT I2C 8SOIC       | $2.44         | 25    |
 
 ## Driver pour 1 moteur:
-ZXBM5210-S-13DICT-ND  IC MOTOR DRIVER 3V-18V 8SO                                     $1.524                                      50                     
+| No                        | Description                       | Prix unitaire | Qté   |
+|---------------------------|-----------------------------------|---------------|-------|
+| ZXBM5210-S-13DICT-ND      | IC MOTOR DRIVER 3V-18V 8SO        | $1.524        | 50    |
 
 # Mouser.ca: 
-No                                      Description                                                                   Prix unitaire                          Qté                                 Total
-
 ## Alimentation découpage:
-926-LM3478MA/NOPB  IC REG CTRLR MULT TOPOLOGY 8SOIC                    $3.46                                      30                                   
-667-16SVPE180M          180 µF 16 V Aluminum - Polymer Capacitors          $1.59                                      25                                   
-                                           Radial, Can - SMD 11mOhm 2000 Hrs @ 105°C 
+| No                        | Description                               | Prix unitaire | Qté   |
+|---------------------------|-------------------------------------------|---------------|-------|
+| 926-LM3478MA/NOPB         | IC REG CTRLR MULT TOPOLOGY 8SOIC          | $3.46         | 30    |
+| 667-16SVPE180M            | 180 µF 16 V Aluminum - Polymer Capacitors | $1.59         | 25    |
+|                           | Radial, Can - SMD 11mOhm 2000 Hrs @ 105°C |               |       |
