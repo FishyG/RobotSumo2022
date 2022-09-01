@@ -320,6 +320,14 @@
     [
       "87480623-b93f-4766-bebb-1033753edefb",
       ""
+    ],
+    [
+      "d52e6e97-797a-47f3-9e84-2594d0785aa0",
+      "PowerSupply_6V"
+    ],
+    [
+      "70ffecfb-8b98-4da1-8b8b-21c003eca850",
+      "PowerSupply_9V"
     ]
   ],
   "text_variables": {}
