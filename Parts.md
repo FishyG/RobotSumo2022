@@ -53,6 +53,6 @@
 ## Etc.
 | No                    | Description                               | Prix unitaire | Qté   |
 |-----------------------|-------------------------------------------|---------------|-------|
-| N/A                   | TCRT50000 - Capteur de sol                | N/A           | N/A   |
+| N/A                   | TCRT5000 - Capteur de sol                | N/A           | N/A   |
 | N/A                   | TL1838 - Capteur de proximité:            | N/A           | N/A   |
 | N/A                   | IR204 - DEL IR                            | N/A           | N/A   |
