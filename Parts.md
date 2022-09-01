@@ -48,3 +48,11 @@
 | 926-LM3478MA/NOPB     | IC REG CTRLR MULT TOPOLOGY 8SOIC          | $3.46         | 30    |
 | 667-16SVPE180M        | 180 µF 16 V Aluminum - Polymer Capacitors | $1.59         | 25    |
 |                       | Radial, Can - SMD 11mOhm 2000 Hrs @ 105°C |               |       |
+
+# IDK :shrug:
+## Etc.
+| No                    | Description                               | Prix unitaire | Qté   |
+|-----------------------|-------------------------------------------|---------------|-------|
+| N/A                   | TCRT5000 - Capteur de sol                | N/A           | N/A   |
+| N/A                   | TL1838 - Capteur de proximité:            | N/A           | N/A   |
+| N/A                   | IR204 - DEL IR                            | N/A           | N/A   |
