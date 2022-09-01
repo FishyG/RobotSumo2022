@@ -49,7 +49,7 @@
 | 667-16SVPE180M        | 180 µF 16 V Aluminum - Polymer Capacitors | $1.59         | 25    |
 |                       | Radial, Can - SMD 11mOhm 2000 Hrs @ 105°C |               |       |
 
-# IDK <pre>¯\_(ツ)_/¯:</pre>
+# IDK :shrug:
 ## Etc.
 | No                    | Description                               | Prix unitaire | Qté   |
 |-----------------------|-------------------------------------------|---------------|-------|
