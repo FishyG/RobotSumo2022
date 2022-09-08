@@ -324,6 +324,10 @@
     [
       "f43f384e-6bcf-4d6c-ac65-2e849bdb75c5",
       "Carte Mere"
+    ],
+    [
+      "aec80012-9fd9-47a4-99f4-0c0009bc1723",
+      "Capteur"
     ]
   ],
   "text_variables": {}
