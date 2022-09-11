@@ -993,7 +993,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 439e9376-0ae2-4129-bc1c-6d770fb30c60)
     (property "Reference" "R4" (id 0) (at 152.4 71.12 90))
-    (property "Value" "6.19k" (id 1) (at 152.4 73.66 90))
+    (property "Value" "3.74k" (id 1) (at 152.4 73.66 90))
     (property "Footprint" "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder" (id 2) (at 152.4 77.216 0)
       (effects (font (size 1.27 1.27)) hide)
     )
