@@ -2,4 +2,5 @@
   (lib (name "Library")(type "KiCad")(uri "C:/Users/zacha/Downloads/footprint (1)/Library.pretty")(options "")(descr ""))
   (lib (name "TCRT5000")(type "KiCad")(uri "/home/jessy/Desktop/TCRT5000.pretty")(options "")(descr ""))
   (lib (name "SUMO")(type "KiCad")(uri "${KIPRJMOD}/SUMO.pretty")(options "")(descr ""))
+  (lib (name "Sumo")(type "KiCad")(uri "${KIPRJMOD}/Sumo.pretty")(options "")(descr ""))
 )
