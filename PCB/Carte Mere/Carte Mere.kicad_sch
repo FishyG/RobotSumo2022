@@ -232,16 +232,16 @@
       (reference "U4") (unit 1) (value "LD1117S33TR_SOT223") (footprint "Package_TO_SOT_SMD:TO-252-2")
     )
     (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/bbb390a9-1154-4fc0-97a4-8d964755bad9"
-      (reference "U5") (unit 1) (value "TCRT5000") (footprint "Library:tcrt5000")
+      (reference "U5") (unit 1) (value "TCRT5000") (footprint "Sumo:OPTO_TCRT5000")
     )
     (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/39f69e4c-3d98-4642-8cee-de7f9bf86b5e"
-      (reference "U6") (unit 1) (value "TCRT5000") (footprint "Library:tcrt5000")
+      (reference "U6") (unit 1) (value "TCRT5000") (footprint "Sumo:OPTO_TCRT5000")
     )
     (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/bcd1d003-705a-4a74-aa1b-8b1527ce112a"
-      (reference "U7") (unit 1) (value "TCRT5000") (footprint "Library:tcrt5000")
+      (reference "U7") (unit 1) (value "TCRT5000") (footprint "Sumo:OPTO_TCRT5000")
     )
     (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/2a63f417-79aa-42b1-9711-76c6546efc75"
-      (reference "U8") (unit 1) (value "TCRT5000") (footprint "Library:tcrt5000")
+      (reference "U8") (unit 1) (value "TCRT5000") (footprint "Sumo:OPTO_TCRT5000")
     )
   )
 )
