@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "Regulator")(type "KiCad")(uri "${KIPRJMOD}/Regulator.kicad_sym")(options "")(descr ""))
+  (lib (name "PIC")(type "KiCad")(uri "${KIPRJMOD}/PIC.kicad_sym")(options "")(descr ""))
+)
