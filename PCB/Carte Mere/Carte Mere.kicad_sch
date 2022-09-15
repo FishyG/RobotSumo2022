@@ -135,6 +135,9 @@
     (path "/f43f384e-6bcf-4d6c-ac65-2e849bdb75c5/644f2a5e-73b6-4699-9c2e-a861b88658a1"
       (reference "C12") (unit 1) (value "10uf") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
+    (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/1395a383-b463-49f2-9a9b-4e3202d0bb81"
+      (reference "C?") (unit 1) (value "100uf") (footprint "")
+    )
     (path "/f43f384e-6bcf-4d6c-ac65-2e849bdb75c5/c7590e5e-e9e2-4d9d-b561-9be7ca32d793"
       (reference "D1") (unit 1) (value "Verte") (footprint "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
@@ -165,14 +168,8 @@
     (path "/f43f384e-6bcf-4d6c-ac65-2e849bdb75c5/4295d1f7-64fc-48e9-bc25-a319d65cd77c"
       (reference "J6") (unit 1) (value "01x20_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical")
     )
-    (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/999eac11-d46b-4a47-95ca-8cfb50379b45"
-      (reference "J7") (unit 1) (value "IR204") (footprint "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z8.2mm")
-    )
-    (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/283e4221-bc9b-445a-80b3-fce20172c63e"
-      (reference "J8") (unit 1) (value "IR204") (footprint "LED_THT:LED_D1.8mm_W1.8mm_H2.4mm_Horizontal_O6.35mm_Z8.2mm")
-    )
     (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/1dd497d2-9138-48a8-80ca-5c6c78b8d54b"
-      (reference "J9") (unit 1) (value "TL1838") (footprint "Package_TO_SOT_THT:TO-92L_Inline_Wide")
+      (reference "J9") (unit 1) (value "TL1838") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
     )
     (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/46365a59-869a-42e2-962c-1b50c4df8026"
       (reference "J10") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
@@ -185,6 +182,12 @@
     )
     (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/81d03114-460e-43ea-aa72-de32cf1352c6"
       (reference "J13") (unit 1) (value "Conn_01x04_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
+    )
+    (path "/f43f384e-6bcf-4d6c-ac65-2e849bdb75c5/bad86c5b-550c-459d-ae24-5ea963bd342c"
+      (reference "J14") (unit 1) (value "01x20_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical")
+    )
+    (path "/f43f384e-6bcf-4d6c-ac65-2e849bdb75c5/e0a5752b-7977-4fe6-89e3-7b0cd68f3242"
+      (reference "J15") (unit 1) (value "01x20_Female") (footprint "Connector_PinSocket_2.54mm:PinSocket_1x20_P2.54mm_Vertical")
     )
     (path "/f43f384e-6bcf-4d6c-ac65-2e849bdb75c5/f974fae1-a712-453d-9d82-10c7fc848cfc"
       (reference "JP1") (unit 1) (value "Jumper_3_Bridge") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
@@ -218,6 +221,12 @@
     )
     (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/222f7cc9-3b13-4497-84c5-cf613455c1d0"
       (reference "R10") (unit 1) (value "10kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/0b525bbc-8310-4bdf-ab3c-2f179935af99"
+      (reference "R?") (unit 1) (value "100Ω") (footprint "")
+    )
+    (path "/aec80012-9fd9-47a4-99f4-0c0009bc1723/d3e0c4f7-434f-48fe-87b3-e2c61acd4905"
+      (reference "R?") (unit 1) (value "20kΩ") (footprint "")
     )
     (path "/f43f384e-6bcf-4d6c-ac65-2e849bdb75c5/d961c26d-eca8-409d-86f2-dffc4abe8e72"
       (reference "U1") (unit 1) (value "ZXBM5210-S") (footprint "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm")
