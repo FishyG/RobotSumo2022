@@ -1,0 +1,3 @@
+#Ignore KiCad's backup files
+*.kicad_prl
+*-backups/
