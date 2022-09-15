@@ -427,6 +427,14 @@
     [
       "3644c093-f02c-485e-87f1-dcfb0e72bc30",
       ""
+    ],
+    [
+      "ba58a806-e6b2-4341-943b-03dd6ad397fa",
+      "Propeller"
+    ],
+    [
+      "ac0796f2-1d9c-4bff-904f-5b8e447a54cd",
+      "ESP-01"
     ]
   ],
   "text_variables": {}
