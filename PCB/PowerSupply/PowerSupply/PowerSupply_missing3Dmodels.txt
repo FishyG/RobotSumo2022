@@ -1,0 +1,13 @@
+### Missing 3D models - created on 2022-09-15 09:56
+### Printed by checking_3D_models plugin
+Board file: /home/jessy/Documents/A2022/ISO/RobotSumo/PCB/PowerSupply/PowerSupply/PowerSupply.kicad_pcb
+3D missing models written to:
+/home/jessy/Documents/A2022/ISO/RobotSumo/PCB/PowerSupply/PowerSupply/PowerSupply_missing3Dmodels.txt
+-------
+('U4', '/usr/share/kicad/3dmodels/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.wrl')
+('U3', '/usr/share/kicad/3dmodels/Package_SO.3dshapes/SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm.wrl')
+('L2', '/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_TDK_VLP8040.wrl')
+('L1', '/usr/share/kicad/3dmodels/Inductor_SMD.3dshapes/L_TDK_VLP8040.wrl')
+-------
+NUM of 3D missing models:4
+checked extensions ['.stp', '.step', '.stpZ']
