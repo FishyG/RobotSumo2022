@@ -20,14 +20,14 @@
     )
   )
 
-  (sheet (at 25.4 16.51) (size 60.96 31.75) (fields_autoplaced)
+  (sheet (at 25.4 17.78) (size 60.96 31.75) (fields_autoplaced)
     (stroke (width 0.1524) (type solid) (color 0 0 0 0))
     (fill (color 0 0 0 0.0000))
     (uuid d52e6e97-797a-47f3-9e84-2594d0785aa0)
-    (property "Sheet name" "PowerSupply_6V" (id 0) (at 25.4 15.7984 0)
+    (property "Sheet name" "PowerSupply_6V" (id 0) (at 25.4 17.0684 0)
       (effects (font (size 1.27 1.27)) (justify left bottom))
     )
-    (property "Sheet file" "PowerSupply_6V.kicad_sch" (id 1) (at 25.4 48.8446 0)
+    (property "Sheet file" "PowerSupply_6V.kicad_sch" (id 1) (at 25.4 50.1146 0)
       (effects (font (size 1.27 1.27)) (justify left top))
     )
   )
@@ -39,6 +39,9 @@
   )
 
   (symbol_instances
+    (path "/d52e6e97-797a-47f3-9e84-2594d0785aa0/66d410c0-7cfb-449e-9a14-33526c090e49"
+      (reference "#FLG0101") (unit 1) (value "PWR_FLAG") (footprint "")
+    )
     (path "/d52e6e97-797a-47f3-9e84-2594d0785aa0/a6cca68e-2819-49c2-af51-6d2a54e1615b"
       (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
     )
@@ -50,6 +53,9 @@
     )
     (path "/70ffecfb-8b98-4da1-8b8b-21c003eca850/e20be217-f6be-44a4-8ad3-ea97b1dcf19e"
       (reference "#PWR0104") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/d52e6e97-797a-47f3-9e84-2594d0785aa0/eb233b0f-a872-4930-aedf-8c6d215fd56e"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
     )
     (path "/d52e6e97-797a-47f3-9e84-2594d0785aa0/408f320a-98fc-43da-b743-5ca46a73fedb"
       (reference "C1") (unit 1) (value "180.0μF") (footprint "Capacitor_SMD:CP_Elec_10x10")
