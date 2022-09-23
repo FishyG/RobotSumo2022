@@ -714,7 +714,6 @@
     )
   )
 
-
   (junction (at 232.156 123.698) (diameter 0) (color 0 0 0 0)
     (uuid 06be4442-b24e-40db-b72d-d2d3c9c5d320)
   )
@@ -1565,5 +1564,87 @@
     (pin "1" (uuid 2a74edf7-7aa3-4746-b45b-7d0642faf549))
     (pin "2" (uuid c84f7357-ba09-468d-8a79-98228254bd2d))
     (pin "3" (uuid 2a869d09-c5f6-4766-b123-4893c037c54f))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/f1d537c1-a8ba-4f49-a4d8-b4f939455558"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/18af1d88-91db-4163-9359-d7124e411ab6"
+      (reference "#PWR015") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/79db6aae-f78b-4231-a9f0-2ef15b641e87"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7f41b6ad-3624-48a6-a0d2-d278e9f52b3d"
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/cf4f77eb-c994-4b87-81d6-144a483189cc"
+      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/1395a383-b463-49f2-9a9b-4e3202d0bb81"
+      (reference "C13") (unit 1) (value "100uf") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/5cd9208a-afd4-490e-bbdd-ed155aabefd3"
+      (reference "J7") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/6dd7256e-6522-40e0-a66c-b9b447072438"
+      (reference "J8") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/1dd497d2-9138-48a8-80ca-5c6c78b8d54b"
+      (reference "J9") (unit 1) (value "TL1838") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/56263968-316f-4cfb-a423-8a76a21c8f5f"
+      (reference "J10") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/72c9c4de-b32e-4b33-bbbd-a2735acfa12e"
+      (reference "J11") (unit 1) (value "Conn_01x03_Male") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
+    )
+    (path "/b16f2d5d-1099-4a97-9142-35b5248315bf"
+      (reference "R3") (unit 1) (value "500Ω") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/2a1e126f-a9a5-414b-9647-9870ac9981f9"
+      (reference "R4") (unit 1) (value "500Ω") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/2d2d2df2-5801-4771-996f-3e7c834def49"
+      (reference "R5") (unit 1) (value "500Ω") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/545315b6-4f26-4f8e-94c6-91670b50f0b2"
+      (reference "R6") (unit 1) (value "500Ω") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/0b525bbc-8310-4bdf-ab3c-2f179935af99"
+      (reference "R7") (unit 1) (value "100Ω") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/d3e0c4f7-434f-48fe-87b3-e2c61acd4905"
+      (reference "R8") (unit 1) (value "20kΩ") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/f59fcb2d-9f07-43c8-acd8-7709bc19ad9d"
+      (reference "RV1") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
+    )
+    (path "/dc6eea7a-ab98-4766-8788-03797f414311"
+      (reference "RV2") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
+    )
+    (path "/863d5147-a1e6-46fe-9b43-642ae2ce41c3"
+      (reference "RV3") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
+    )
+    (path "/67fb7d3c-6cc4-4450-b589-6a866ba6b04b"
+      (reference "RV4") (unit 1) (value "100k") (footprint "Potentiometer_THT:Potentiometer_ACP_CA6-H2,5_Horizontal")
+    )
+    (path "/bbb390a9-1154-4fc0-97a4-8d964755bad9"
+      (reference "U5") (unit 1) (value "TCRT5000") (footprint "Sumo:OPTO_TCRT5000")
+    )
+    (path "/39f69e4c-3d98-4642-8cee-de7f9bf86b5e"
+      (reference "U6") (unit 1) (value "TCRT5000") (footprint "Sumo:OPTO_TCRT5000")
+    )
+    (path "/bcd1d003-705a-4a74-aa1b-8b1527ce112a"
+      (reference "U7") (unit 1) (value "TCRT5000") (footprint "Sumo:OPTO_TCRT5000")
+    )
+    (path "/2a63f417-79aa-42b1-9711-76c6546efc75"
+      (reference "U8") (unit 1) (value "TCRT5000") (footprint "Sumo:OPTO_TCRT5000")
+    )
   )
 )
