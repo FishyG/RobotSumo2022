@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1669904544 source:c:\users\zacha\documents\a2022\intégration systeme ordiné\code\robotsumo\main.c
+	<stdio.h>
+	<catalina_cog.h>
+
