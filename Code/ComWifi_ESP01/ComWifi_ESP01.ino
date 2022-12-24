@@ -2,18 +2,20 @@
 #include <WiFiClient.h>
 
 
-int port = 8888;  //Port number
+int port = 8869;  //Port number
 WiFiServer server(port);
 
 //Server connect to WiFi Network
-const char *ssid = "";  //Enter your wifi SSID
-const char *password = "";  //Enter your wifi Password
+const char *ssid = "tge_sansfil_228";  //Enter your wifi SSID
+const char *password = "sherbrooke";  //Enter your wifi Password
 
 void setup() 
 {
   Serial.begin(115200);
   Serial1.begin(115200);
   
+  Serial.println("Hello :)");
+  delay(3000);
   WiFi.mode(WIFI_STA);
   WiFi.begin(ssid, password); //Connect to wifi
  
@@ -52,9 +54,8 @@ void loop()
         {
           // read data from the connected client
           Serial1.write(client.read()); 
-          Serial.println("Data was received, sending it to the serial port 1. You are now on serial port 0");
           //Send Data to connected client
-          client.println("Data was received, sending it to the serial port 1. You are now on a TCP connection");
+          client.println(":)");
         }
         
          //Send Data to connected client
