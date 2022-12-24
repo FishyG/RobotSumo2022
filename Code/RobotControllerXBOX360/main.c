@@ -12,8 +12,8 @@
 #include <linux/joystick.h>
 
 #define MAX 80
-#define PORT 8869
-#define IPADDR "192.168.2.26"//"10.240.3.172"
+#define PORT 8869	// Port pour le ESP-01
+#define IPADDR "192.168.2.26"//"10.240.3.172"	// IP pour le ESP-01
 #define SA struct sockaddr
 
 
