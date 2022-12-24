@@ -186,13 +186,13 @@ int main(int argc, char *argv[])
                 }
                 if(axis == 1)
                 {
-                    sprintf(commandeToSend, "a%03d", roueGauche);
-                    needToSend = 1;
+                    sprintf(commandeToSend, "a%03d", roueGauche);	// Commande qui sera envoyé
+                    needToSend = 1;	// Les valeurs on changer donc on doit envoyer les données
                 }
                 if(axis == 2)
                 {
-                    sprintf(commandeToSend, "b%03d", roueDroite);
-                    needToSend = 1;
+                    sprintf(commandeToSend, "b%03d", roueDroite);	// Commande qui sera envoyé
+                    needToSend = 1;	// Les valeurs on changer donc on doit envoyer les données
                 }
                break;
             default:
@@ -203,6 +203,7 @@ int main(int argc, char *argv[])
         printf("Roue Gauche : %6d \n", roueGauche);
         printf("Roue Droite : %6d \n", roueDroite);
         
+	// Si les valeurs on changer on envoie le data
         if(needToSend)
         {
             printf("\nSending : %s", commandeToSend);
