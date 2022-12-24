@@ -18,7 +18,7 @@ LIGHT_BLUE='\033[1;34m'
 LIGHT_PURPLE='\033[1;35m'
 LIGHT_CYAN='\033[0;36m'
 
-# Pipe what is typed to netcat (and control the robot)
+# Pipe what is typed to netcat (to control the robot)
 while [ 1 ]
 do
 	read -n 1 -s test
