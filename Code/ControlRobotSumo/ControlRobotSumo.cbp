@@ -16,6 +16,7 @@
 			<Add option="-b" />
 			<Add option="-CLORES_VGA" />
 			<Add option="-CTINY" />
+			<Add option="-Clibserial4" />
 			<Add option="-Clibci" />
 			<Add option="-CCUSTOM" />
 			<Add option="-p1" />
@@ -24,6 +25,7 @@
 			<Add option="-b" />
 			<Add option="-CCLORES_VGA" />
 			<Add option="-CTINY" />
+			<Add option="-lserial4" />
 			<Add option="-lci" />
 			<Add option="-CCUSTOM" />
 			<Add option="-p1" />
