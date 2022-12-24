@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="RobotSumo" />
+		<Option pch_mode="2" />
+		<Option compiler="catalina" />
+		<Build>
+			<Target title="default">
+				<Option output="RobotSumo.binary" prefix_auto="1" extension_auto="0" />
+				<Option type="1" />
+				<Option compiler="catalina" />
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-CCUSTOM" />
+			<Add option="-Clibci" />
+			<Add option="-CTTY" />
+			<Add option="-CTINY" />
+		</Compiler>
+		<Linker>
+			<Add option="-CCUSTOM" />
+			<Add option="-lci" />
+			<Add option="-CTTY" />
+			<Add option="-CTINY" />
+			<Add option="-b" />
+		</Linker>
+		<Unit filename="main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

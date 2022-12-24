@@ -1,0 +1,688 @@
+' Catalina Code
+
+DAT ' code segment
+'
+' LCC 4.2 for Parallax Propeller
+' (Catalina v2.5 Code Generator by Ross Higson)
+'
+
+' Catalina Init
+
+DAT ' initialized data segment
+
+' Catalina Export delOn
+
+ long ' align long
+C_delO_n ' <symbol:delOn>
+ long 0
+
+' Catalina Export speed
+
+ long ' align long
+C_speed ' <symbol:speed>
+ long 50
+
+' Catalina Export main
+
+' Catalina Code
+
+DAT ' code segment
+
+ long ' align long
+C_main ' <symbol:main>
+ sub SP, #8
+ mov BC, #8
+ jmp #NEWF
+ sub SP, #400
+#ifndef NO_ARGS
+ jmp #CALA
+ long @C_arg_setup
+#endif
+ mov r23, r3 ' reg var <- reg arg
+ mov r21, r2 ' reg var <- reg arg
+ jmp #LODL
+ long -1
+ mov r19, RI ' reg <- con
+ jmp #LODL
+ long -1
+ mov r17, RI ' reg <- con
+ mov r2, #0 ' reg ARG coni
+ mov r3, #16 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__dira
+ add SP, #4 ' CALL addrg
+ mov r2, #0 ' reg ARG coni
+ mov r3, #32 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__dira
+ add SP, #4 ' CALL addrg
+ mov r2, #0 ' reg ARG coni
+ mov r3, #64 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__dira
+ add SP, #4 ' CALL addrg
+ mov r2, #0 ' reg ARG coni
+ mov r3, #16 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__dira
+ add SP, #4 ' CALL addrg
+ mov r2, FP
+ sub r2, #-(0) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_foward1
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r19, r0 ' CVI, CVU or LOAD
+ mov r2, FP
+ sub r2, #-(-200) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_foward2
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r17, r0 ' CVI, CVU or LOAD
+ jmp #JMPA
+ long @C_main_5 ' JUMPV addrg
+C_main_4
+ mov BC, #0 ' arg size, rpsize = 0, spsize = 0
+ jmp #CALA
+ long @C__ina ' CALL addrg
+ mov r22, r0
+ and r22, #16 ' BANDU4 coni
+ cmp r22,  #0 wz
+ jmp #BRNZ
+ long @C_main_7 ' NEU4
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r19, r22 wz
+ jmp #BRNZ
+ long @C_main_8 ' NEI4
+ jmp #JMPA
+ long @C_main_8 ' JUMPV addrg
+C_main_7
+ mov BC, #0 ' arg size, rpsize = 0, spsize = 0
+ jmp #CALA
+ long @C__ina ' CALL addrg
+ mov r22, r0
+ and r22, #16 ' BANDU4 coni
+ cmp r22,  #0 wz
+ jmp #BR_Z
+ long @C_main_11 ' EQU4
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r19, r22 wz
+ jmp #BR_Z
+ long @C_main_13 ' EQI4
+ mov r2, r19 ' CVI, CVU or LOAD
+ mov BC, #4 ' arg size, rpsize = 4, spsize = 4
+ jmp #CALA
+ long @C__cogstop ' CALL addrg
+ jmp #LODL
+ long -1
+ mov r19, RI ' reg <- con
+ mov r2, FP
+ sub r2, #-(0) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_foward1
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r19, r0 ' CVI, CVU or LOAD
+C_main_13
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r17, r22 wz
+ jmp #BR_Z
+ long @C_main_16 ' EQI4
+ mov r2, r17 ' CVI, CVU or LOAD
+ mov BC, #4 ' arg size, rpsize = 4, spsize = 4
+ jmp #CALA
+ long @C__cogstop ' CALL addrg
+ jmp #LODL
+ long -1
+ mov r17, RI ' reg <- con
+ mov r2, FP
+ sub r2, #-(-200) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_foward2
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r17, r0 ' CVI, CVU or LOAD
+C_main_16
+C_main_11
+C_main_8
+ mov BC, #0 ' arg size, rpsize = 0, spsize = 0
+ jmp #CALA
+ long @C__ina ' CALL addrg
+ mov r22, r0
+ and r22, #32 ' BANDU4 coni
+ cmp r22,  #0 wz
+ jmp #BRNZ
+ long @C_main_19 ' NEU4
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r19, r22 wz
+ jmp #BRNZ
+ long @C_main_20 ' NEI4
+ jmp #JMPA
+ long @C_main_20 ' JUMPV addrg
+C_main_19
+ mov BC, #0 ' arg size, rpsize = 0, spsize = 0
+ jmp #CALA
+ long @C__ina ' CALL addrg
+ mov r22, r0
+ and r22, #32 ' BANDU4 coni
+ cmp r22,  #0 wz
+ jmp #BR_Z
+ long @C_main_23 ' EQU4
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r19, r22 wz
+ jmp #BR_Z
+ long @C_main_25 ' EQI4
+ mov r2, r19 ' CVI, CVU or LOAD
+ mov BC, #4 ' arg size, rpsize = 4, spsize = 4
+ jmp #CALA
+ long @C__cogstop ' CALL addrg
+ jmp #LODL
+ long -1
+ mov r19, RI ' reg <- con
+ mov r2, FP
+ sub r2, #-(0) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_foward1
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r19, r0 ' CVI, CVU or LOAD
+C_main_25
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r17, r22 wz
+ jmp #BR_Z
+ long @C_main_28 ' EQI4
+ mov r2, r17 ' CVI, CVU or LOAD
+ mov BC, #4 ' arg size, rpsize = 4, spsize = 4
+ jmp #CALA
+ long @C__cogstop ' CALL addrg
+ jmp #LODL
+ long -1
+ mov r17, RI ' reg <- con
+ mov r2, FP
+ sub r2, #-(-200) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_foward2
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r17, r0 ' CVI, CVU or LOAD
+C_main_28
+C_main_23
+C_main_20
+ mov BC, #0 ' arg size, rpsize = 0, spsize = 0
+ jmp #CALA
+ long @C__ina ' CALL addrg
+ mov r22, r0
+ and r22, #64 ' BANDU4 coni
+ cmp r22,  #0 wz
+ jmp #BRNZ
+ long @C_main_31 ' NEU4
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r19, r22 wz
+ jmp #BRNZ
+ long @C_main_32 ' NEI4
+ jmp #JMPA
+ long @C_main_32 ' JUMPV addrg
+C_main_31
+ mov BC, #0 ' arg size, rpsize = 0, spsize = 0
+ jmp #CALA
+ long @C__ina ' CALL addrg
+ mov r22, r0
+ and r22, #64 ' BANDU4 coni
+ cmp r22,  #0 wz
+ jmp #BR_Z
+ long @C_main_35 ' EQU4
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r19, r22 wz
+ jmp #BR_Z
+ long @C_main_37 ' EQI4
+ mov r2, r19 ' CVI, CVU or LOAD
+ mov BC, #4 ' arg size, rpsize = 4, spsize = 4
+ jmp #CALA
+ long @C__cogstop ' CALL addrg
+ jmp #LODL
+ long -1
+ mov r19, RI ' reg <- con
+ mov r2, FP
+ sub r2, #-(0) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_back1
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r19, r0 ' CVI, CVU or LOAD
+C_main_37
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r17, r22 wz
+ jmp #BR_Z
+ long @C_main_40 ' EQI4
+ mov r2, r17 ' CVI, CVU or LOAD
+ mov BC, #4 ' arg size, rpsize = 4, spsize = 4
+ jmp #CALA
+ long @C__cogstop ' CALL addrg
+ jmp #LODL
+ long -1
+ mov r17, RI ' reg <- con
+ mov r2, FP
+ sub r2, #-(-200) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_back2
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r17, r0 ' CVI, CVU or LOAD
+C_main_40
+C_main_35
+C_main_32
+ mov BC, #0 ' arg size, rpsize = 0, spsize = 0
+ jmp #CALA
+ long @C__ina ' CALL addrg
+ mov r22, r0
+ and r22, #128 ' BANDU4 coni
+ cmp r22,  #0 wz
+ jmp #BRNZ
+ long @C_main_43 ' NEU4
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r19, r22 wz
+ jmp #BRNZ
+ long @C_main_44 ' NEI4
+ jmp #JMPA
+ long @C_main_44 ' JUMPV addrg
+C_main_43
+ mov BC, #0 ' arg size, rpsize = 0, spsize = 0
+ jmp #CALA
+ long @C__ina ' CALL addrg
+ mov r22, r0
+ and r22, #128 ' BANDU4 coni
+ cmp r22,  #0 wz
+ jmp #BR_Z
+ long @C_main_47 ' EQU4
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r19, r22 wz
+ jmp #BR_Z
+ long @C_main_49 ' EQI4
+ mov r2, r19 ' CVI, CVU or LOAD
+ mov BC, #4 ' arg size, rpsize = 4, spsize = 4
+ jmp #CALA
+ long @C__cogstop ' CALL addrg
+ jmp #LODL
+ long -1
+ mov r19, RI ' reg <- con
+ mov r2, FP
+ sub r2, #-(0) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_back1
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r19, r0 ' CVI, CVU or LOAD
+C_main_49
+ jmp #LODL
+ long -1
+ mov r22, RI ' reg <- con
+ cmps r17, r22 wz
+ jmp #BR_Z
+ long @C_main_52 ' EQI4
+ mov r2, r17 ' CVI, CVU or LOAD
+ mov BC, #4 ' arg size, rpsize = 4, spsize = 4
+ jmp #CALA
+ long @C__cogstop ' CALL addrg
+ jmp #LODL
+ long -1
+ mov r17, RI ' reg <- con
+ mov r2, FP
+ sub r2, #-(-200) ' reg ARG ADDRLi
+ jmp #LODL
+ long @C_fct_back2
+ mov r3, RI ' reg ARG ADDRG
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__coginit_C_
+ add SP, #4 ' CALL addrg
+ mov r17, r0 ' CVI, CVU or LOAD
+C_main_52
+C_main_47
+C_main_44
+C_main_5
+ jmp #JMPA
+ long @C_main_4 ' JUMPV addrg
+' C_main_1 ' (symbol refcount = 0)
+#ifndef NO_EXIT
+ jmp #JMPA
+ long @C__exit
+#endif
+
+' Catalina Export fct_foward1
+
+ long ' align long
+C_fct_foward1 ' <symbol:fct_foward1>
+ jmp #PSHM
+ long $c00000 ' save registers
+ mov r23, #0 ' reg <- coni
+ mov r22, #1 ' reg <- coni
+ mov r2, r22 ' CVI, CVU or LOAD
+ mov r3, r22 ' CVI, CVU or LOAD
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__dira
+ add SP, #4 ' CALL addrg
+ mov r2, #0 ' reg ARG coni
+ mov r3, #1 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ jmp #JMPA
+ long @C_fct_foward1_57 ' JUMPV addrg
+C_fct_foward1_59
+ mov r22, #1 ' reg <- coni
+ mov r2, r22 ' CVI, CVU or LOAD
+ mov r3, r22 ' CVI, CVU or LOAD
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ adds r23, #1 ' ADDI4 coni
+C_fct_foward1_60
+ jmp #LODI
+ long @C_speed
+ mov r22, RI ' reg <- INDIRI4 addrg
+ cmps r23, r22 wz,wc
+ jmp #BR_B
+ long @C_fct_foward1_59 ' LTI4
+ jmp #JMPA
+ long @C_fct_foward1_63 ' JUMPV addrg
+C_fct_foward1_62
+ mov r2, #0 ' reg ARG coni
+ mov r3, #1 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ adds r23, #1 ' ADDI4 coni
+C_fct_foward1_63
+ cmps r23,  #100 wz,wc
+ jmp #BR_B
+ long @C_fct_foward1_62 ' LTI4
+ mov r23, #0 ' reg <- coni
+C_fct_foward1_57
+ jmp #JMPA
+ long @C_fct_foward1_60 ' JUMPV addrg
+' C_fct_foward1_55 ' (symbol refcount = 0)
+ jmp #POPM ' restore registers
+ jmp #RETN
+
+
+' Catalina Export fct_foward2
+
+ long ' align long
+C_fct_foward2 ' <symbol:fct_foward2>
+ jmp #PSHM
+ long $c00000 ' save registers
+ mov r23, #0 ' reg <- coni
+ mov r22, #4 ' reg <- coni
+ mov r2, r22 ' CVI, CVU or LOAD
+ mov r3, r22 ' CVI, CVU or LOAD
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__dira
+ add SP, #4 ' CALL addrg
+ mov r2, #0 ' reg ARG coni
+ mov r3, #4 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ jmp #JMPA
+ long @C_fct_foward2_67 ' JUMPV addrg
+C_fct_foward2_69
+ mov r22, #4 ' reg <- coni
+ mov r2, r22 ' CVI, CVU or LOAD
+ mov r3, r22 ' CVI, CVU or LOAD
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ adds r23, #1 ' ADDI4 coni
+C_fct_foward2_70
+ jmp #LODI
+ long @C_speed
+ mov r22, RI ' reg <- INDIRI4 addrg
+ cmps r23, r22 wz,wc
+ jmp #BR_B
+ long @C_fct_foward2_69 ' LTI4
+ jmp #JMPA
+ long @C_fct_foward2_73 ' JUMPV addrg
+C_fct_foward2_72
+ mov r2, #0 ' reg ARG coni
+ mov r3, #4 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ adds r23, #1 ' ADDI4 coni
+C_fct_foward2_73
+ cmps r23,  #100 wz,wc
+ jmp #BR_B
+ long @C_fct_foward2_72 ' LTI4
+ mov r23, #0 ' reg <- coni
+C_fct_foward2_67
+ jmp #JMPA
+ long @C_fct_foward2_70 ' JUMPV addrg
+' C_fct_foward2_65 ' (symbol refcount = 0)
+ jmp #POPM ' restore registers
+ jmp #RETN
+
+
+' Catalina Export fct_back1
+
+ long ' align long
+C_fct_back1 ' <symbol:fct_back1>
+ jmp #PSHM
+ long $c00000 ' save registers
+ mov r23, #0 ' reg <- coni
+ mov r22, #2 ' reg <- coni
+ mov r2, r22 ' CVI, CVU or LOAD
+ mov r3, r22 ' CVI, CVU or LOAD
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__dira
+ add SP, #4 ' CALL addrg
+ mov r2, #0 ' reg ARG coni
+ mov r3, #2 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ jmp #JMPA
+ long @C_fct_back1_77 ' JUMPV addrg
+C_fct_back1_79
+ mov r22, #2 ' reg <- coni
+ mov r2, r22 ' CVI, CVU or LOAD
+ mov r3, r22 ' CVI, CVU or LOAD
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ adds r23, #1 ' ADDI4 coni
+C_fct_back1_80
+ jmp #LODI
+ long @C_speed
+ mov r22, RI ' reg <- INDIRI4 addrg
+ cmps r23, r22 wz,wc
+ jmp #BR_B
+ long @C_fct_back1_79 ' LTI4
+ jmp #JMPA
+ long @C_fct_back1_83 ' JUMPV addrg
+C_fct_back1_82
+ mov r2, #0 ' reg ARG coni
+ mov r3, #2 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ adds r23, #1 ' ADDI4 coni
+C_fct_back1_83
+ cmps r23,  #100 wz,wc
+ jmp #BR_B
+ long @C_fct_back1_82 ' LTI4
+ mov r23, #0 ' reg <- coni
+C_fct_back1_77
+ jmp #JMPA
+ long @C_fct_back1_80 ' JUMPV addrg
+' C_fct_back1_75 ' (symbol refcount = 0)
+ jmp #POPM ' restore registers
+ jmp #RETN
+
+
+' Catalina Export fct_back2
+
+ long ' align long
+C_fct_back2 ' <symbol:fct_back2>
+ jmp #PSHM
+ long $c00000 ' save registers
+ mov r23, #0 ' reg <- coni
+ mov r22, #8 ' reg <- coni
+ mov r2, r22 ' CVI, CVU or LOAD
+ mov r3, r22 ' CVI, CVU or LOAD
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__dira
+ add SP, #4 ' CALL addrg
+ mov r2, #0 ' reg ARG coni
+ mov r3, #8 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ jmp #JMPA
+ long @C_fct_back2_87 ' JUMPV addrg
+C_fct_back2_89
+ mov r22, #8 ' reg <- coni
+ mov r2, r22 ' CVI, CVU or LOAD
+ mov r3, r22 ' CVI, CVU or LOAD
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ adds r23, #1 ' ADDI4 coni
+C_fct_back2_90
+ jmp #LODI
+ long @C_speed
+ mov r22, RI ' reg <- INDIRI4 addrg
+ cmps r23, r22 wz,wc
+ jmp #BR_B
+ long @C_fct_back2_89 ' LTI4
+ jmp #JMPA
+ long @C_fct_back2_93 ' JUMPV addrg
+C_fct_back2_92
+ mov r2, #0 ' reg ARG coni
+ mov r3, #8 ' reg ARG coni
+ mov BC, #8 ' arg size, rpsize = 8, spsize = 8
+ sub SP, #4 ' stack space for reg ARGs
+ jmp #CALA
+ long @C__outa
+ add SP, #4 ' CALL addrg
+ adds r23, #1 ' ADDI4 coni
+C_fct_back2_93
+ cmps r23,  #100 wz,wc
+ jmp #BR_B
+ long @C_fct_back2_92 ' LTI4
+ mov r23, #0 ' reg <- coni
+C_fct_back2_87
+ jmp #JMPA
+ long @C_fct_back2_90 ' JUMPV addrg
+' C_fct_back2_85 ' (symbol refcount = 0)
+ jmp #POPM ' restore registers
+ jmp #RETN
+
+
+' Catalina Import _outa
+
+' Catalina Import _dira
+
+' Catalina Import _ina
+
+' Catalina Import _coginit_C
+
+' Catalina Import _cogstop
+' end
